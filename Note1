@@ -1,0 +1,5 @@
+Multicast Ordering:
+  1) FIFO: fisrt in fisrt out orginates from same sender
+  2) Causal: obeys causal across various senders
+  3) Total: every processes delivers multicast in exact same oder(Causal + FIFO)
+
